@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Barbearia Complex Barber — O melhor corte masculino em São Carlos. Agende pelo WhatsApp." />
+  <title>Barbearia Complex Barber | São Carlos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,500&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">Complex Barber</a>
+      <nav class="nav" aria-label="Principal">
+        <a href="#servicos">Serviços</a>
+        <a href="#agendar">Agendar</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a class="btn btn--small btn--whatsapp" href="https://wa.me/5516993951162?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener noreferrer">Agendar</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container hero__content">
+        <p class="eyebrow">São Carlos · Centro</p>
+        <h1>O melhor corte &amp; estilo masculino em São Carlos — elegância, precisão e atendimento premium</h1>
+        <p class="hero__sub">Transforme sua aparência com cortes modernos e clássicos, serviço de barba impecável e experiência personalizada em um ambiente confortável.</p>
+        <a class="btn btn--primary" href="https://wa.me/5516993951162?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener noreferrer">Agende seu horário agora</a>
+      </div>
+    </section>
+
+    <section class="section social-proof" aria-labelledby="social-heading">
+      <div class="container">
+        <h2 id="social-heading">Por que os clientes nos escolhem</h2>
+        <p class="social-proof__rating">
+          <span class="stars" aria-hidden="true">★★★★★</span>
+          <strong>Classificação média 5.0</strong> com mais de <strong>150+ avaliações reais</strong> no Google Maps — clientes destacam atendimento profissional e resultados consistentes.
+        </p>
+
+        <div class="testimonial-slider" data-slider>
+          <blockquote class="testimonial-slider__quote" data-quote>
+            <p>“Melhor barbearia do Centro — corte impecável e atendimento excelente!”</p>
+          </blockquote>
+          <div class="testimonial-slider__dots" role="tablist" aria-label="Depoimentos">
+            <button type="button" class="dot is-active" data-index="0" aria-selected="true" aria-label="Depoimento 1"></button>
+            <button type="button" class="dot" data-index="1" aria-selected="false" aria-label="Depoimento 2"></button>
+            <button type="button" class="dot" data-index="2" aria-selected="false" aria-label="Depoimento 3"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="servicos" aria-labelledby="services-heading">
+      <div class="container">
+        <h2 id="services-heading">O que oferecemos</h2>
+        <p class="section__lead">Serviços pensados para o seu estilo e bem-estar.</p>
+        <ul class="services__grid">
+          <li class="service-card">
+            <span class="service-card__icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 4h12M8 4v16M16 4v16M6 20h12"/><path d="M9 8h6M9 12h6M9 16h4"/></svg>
+            </span>
+            <h3>Cortes masculinos</h3>
+            <p>Modernos e clássicos, alinhados ao seu rosto e ao seu estilo.</p>
+          </li>
+          <li class="service-card">
+            <span class="service-card__icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3v18M8 8c0 2 1 3 4 3s4-1 4-3"/><path d="M8 8V6a4 4 0 0 1 8 0v2"/></svg>
+            </span>
+            <h3>Barba</h3>
+            <p>Design e acabamento impecáveis para um visual alinhado e cuidado.</p>
+          </li>
+          <li class="service-card">
+            <span class="service-card__icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M6 20v-2a6 6 0 0 1 12 0v2"/></svg>
+            </span>
+            <h3>Tratamentos</h3>
+            <p>Tratamentos capilares e cuidados estéticos para sair renovado.</p>
+          </li>
+          <li class="service-card">
+            <span class="service-card__icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l2 6h6l-5 4 2 6-5-4-5 4 2-6-5-4h6l2-6z"/></svg>
+            </span>
+            <h3>Consultoria de estilo</h3>
+            <p>Orientação personalizada para você se sentir confiante no dia a dia.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section lead" id="agendar" aria-labelledby="lead-heading">
+      <div class="container lead__grid">
+        <div class="lead__text">
+          <h2 id="lead-heading">Reserve seu horário agora</h2>
+          <p>Preencha abaixo e nossa equipe confirma seu agendamento.</p>
+        </div>
+        <form class="lead-form" id="lead-form" novalidate>
+          <label class="field">
+            <span>Nome</span>
+            <input type="text" name="nome" required autocomplete="name" placeholder="Seu nome" />
+          </label>
+          <label class="field">
+            <span>Telefone / WhatsApp</span>
+            <input type="tel" name="telefone" required autocomplete="tel" placeholder="(16) 99999-0000" />
+          </label>
+          <label class="field">
+            <span>Serviço desejado</span>
+            <select name="servico" required>
+              <option value="">Selecione</option>
+              <option>Corte masculino</option>
+              <option>Barba</option>
+              <option>Corte + barba</option>
+              <option>Tratamento / outros</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Data preferida</span>
+            <input type="date" name="data" required />
+          </label>
+          <button type="submit" class="btn btn--primary btn--block">Enviar e agendar</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="section diff" aria-labelledby="diff-heading">
+      <div class="container">
+        <h2 id="diff-heading">Por que somos diferentes</h2>
+        <ul class="diff__list">
+          <li>Profissionais experientes e atualizados com tendências</li>
+          <li>Ambiente premium e acolhedor</li>
+          <li>Atendimento rápido, respeitando seu tempo</li>
+          <li>Localização central em São Carlos e fácil acesso</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section steps" aria-labelledby="steps-heading">
+      <div class="container">
+        <h2 id="steps-heading">Como funciona</h2>
+        <ol class="steps__list">
+          <li><span class="steps__num">1</span> Escolha o serviço</li>
+          <li><span class="steps__num">2</span> Escolha a data e horário</li>
+          <li><span class="steps__num">3</span> Receba confirmação via WhatsApp</li>
+        </ol>
+        <a class="btn btn--primary" href="https://wa.me/5516993951162?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener noreferrer">Agende seu horário agora</a>
+      </div>
+    </section>
+
+    <section class="section contact" id="contato" aria-labelledby="contact-heading">
+      <div class="container contact__grid">
+        <div>
+          <h2 id="contact-heading">Visite nossa barbearia</h2>
+          <address class="contact__address">
+            <p><strong>Endereço:</strong> Rua 15 de Novembro, 2117 — Centro, São Carlos — SP</p>
+            <p><strong>WhatsApp:</strong> <a href="https://wa.me/5516993951162">+55 16 99395-1162</a></p>
+            <p><strong>Horário:</strong> Seg–Sex 09:00–20:00 · Sáb 08:00–16:00</p>
+          </address>
+          <p class="contact__map-link">
+            <a href="https://www.google.com/maps/place/Barbearia+Complex+Barber/@-22.0120401,-47.8921001,18.25z" target="_blank" rel="noopener noreferrer">Abrir no Google Maps</a>
+          </p>
+          <a class="btn btn--primary" href="https://wa.me/5516993951162?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener noreferrer">Agende seu horário agora</a>
+        </div>
+        <div class="contact__map-embed">
+          <iframe
+            title="Localização Barbearia Complex Barber no Google Maps"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=Barbearia+Complex+Barber,+Rua+15+de+Novembro+2117,+S%C3%A3o+Carlos+-+SP&output=embed"
+            width="100%"
+            height="280"
+            style="border:0;"
+            allowfullscreen=""
+          ></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section class="section section--legal" id="privacidade" aria-labelledby="priv-heading">
+    <div class="container legal">
+      <h2 id="priv-heading">Aviso de privacidade</h2>
+      <p>Os dados enviados pelo formulário de agendamento são utilizados apenas para contato e confirmação de horário. Não compartilhamos suas informações com terceiros para fins comerciais. Ao enviar o formulário ou conversar pelo WhatsApp, você concorda com esse uso.</p>
+    </div>
+  </section>
+
+  <section class="section section--legal" id="politica" aria-labelledby="pol-heading">
+    <div class="container legal">
+      <h2 id="pol-heading">Política de agendamento</h2>
+      <p>Os horários são confirmados pela equipe via WhatsApp. Alterações ou cancelamentos devem ser comunicados com antecedência. Atrasos podem impactar a disponibilidade do horário reservado.</p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer__inner">
+      <p class="footer__connect">
+        <strong>Conecte-se:</strong>
+        <a href="https://wa.me/5516993951162" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        <span aria-hidden="true">·</span>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </p>
+      <p class="footer__legal">
+        <a href="#privacidade">Aviso de privacidade</a>
+        <span aria-hidden="true">·</span>
+        <a href="#politica">Política de agendamento</a>
+      </p>
+      <p class="footer__copy">&copy; <span id="year"></span> Barbearia Complex Barber · São Carlos, SP</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
